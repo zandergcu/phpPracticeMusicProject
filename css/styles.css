@@ -1,0 +1,132 @@
+html, body, div, section, h3, h2, h1, p, ul, li, input, button, td, tr, table, span, button, article {
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
+
+body {
+    text-align: center;
+    width: 100%;
+    font-family: 'Calibri', sans-serif; 
+    background: rgb(245,245,245);
+}
+
+.homeImg {
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+    max-width: 110px;
+}
+
+.homeImg:hover{
+    left:11px;
+    filter: drop-shadow(16px 16px 20px rgb(60,60,210));
+}
+
+.pageHeader {
+    font-size:40px;
+    display: block;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+.pageLine{
+    border-bottom: solid 5px rgb(28,72,90);;
+    clear:both;
+    margin-top:45px;
+}
+
+#random {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.trackCard {
+    max-width: 25%;
+    height: 310px;
+    border: 3px solid black;
+    display: inline-block;
+    background: rgb(40,40,190);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0 15px 0 15px;
+}
+
+.trackCard:hover {
+    background: rgb(70,70,220);
+}
+
+.trackCard a {
+    text-decoration: none;
+}
+
+.trackImg {
+        max-width: 100%;
+}
+
+
+.title {
+    color: white;
+    padding-top: 10px;
+}
+
+.band {
+    color: black;
+}
+
+#endOfPage {
+    margin-bottom: 20px;
+}
+
+/*********************Details Styles*******************/
+
+.trackDetailsImg {
+    float: left;
+    margin: 0 0 30px 30px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.embedVideo{
+    float: left;
+    margin: 0 0 30px 30px;
+}
+
+table {
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+
+table tr td {
+    padding-left: 30px;
+}
+
+.detailsTitle {
+    font-size: 40px;
+    clear: right;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
